@@ -1,0 +1,556 @@
+li {
+    list-style-type: none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s;
+  }
+
+  .projeto{
+    padding: 9% 17%;
+  }
+  
+  .projeto img{
+    float: left;
+    height: 450px;
+    margin-top: -20%;
+    margin-left: -80px;
+    margin-right: 80px;
+  }
+  .projeto h2{
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 1.5rem;
+
+    color: #A4DCFF;
+  }
+  .projeto p{
+    text-align: left;
+  }
+
+  .problema{
+    position: absolute;
+    padding: 19%;
+    display: inline-block;
+  }
+  
+  .problema img{
+    float: left;
+    height: 720px;
+    margin-top: -30%;
+    margin-left: -80px;
+    margin-right: 40px;
+  }
+  .problema h2{
+    background-image: linear-gradient(to right, #337fad, #337fad, #A4DCFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .problema h2, p{
+    font-size: 40px;
+    text-align: left;
+    padding: 1.5rem;
+  }
+  
+  .bloco{
+    left: 200px;
+    top: 2250px;
+    position: absolute;
+  }
+  .bloco li{
+    display: inline-block;
+  }
+  
+  .bloco1{
+    text-align: center;
+    width: 260px;
+    height: 180px;
+    margin: 0.2rem;
+
+    background-color: #FBFBFB;
+    border: 1px solid #E8E8E8;
+    color: #000;
+    border-radius: 15px;
+    padding: 1rem;
+  }
+  .bloco2{
+    text-align: center;
+    width: 260px;
+    height: 180px;
+    margin: 0.2rem;
+
+    background-color: #FBFBFB;
+    border: 1px solid #E8E8E8;
+    color: #000;
+    border-radius: 15px;
+    padding: 1rem;
+  }
+
+  .bloco h1{
+    font-size: 20px;
+    padding: 1.5rem 0;
+  }
+  
+  .bloco p{
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .principal a{
+    text-align: center;
+    color:#1A7FBD;
+  }
+  
+  .principal h6{
+    font-size: 10px;
+    padding: 0.5rem 5rem;
+  }
+  
+  .principal{
+    display: inline-block;
+    position: relative;
+  }
+  
+    .caixa{
+      transition: all 0.5s;
+
+      padding: 1.5rem 21% 3%;
+      display: inline-block;
+    }
+
+    .caixa li:hover{
+      transition: all 0.5s;
+    }
+  
+  .netuno{
+    float: left;
+    height: 30px;
+    display: block;
+    margin-left: -100px;
+    margin-right: 35px;
+  }
+
+    .botao-processo{
+      position: relative;
+      float: right;
+      margin-top: -65px;
+      margin-left: 550px;
+      padding: 0.9rem 1.3rem;
+
+      background-color: #000;
+      border-radius: 5px;
+      font-size: 14px;
+
+      transition: all 0.5s;
+    }
+
+    .botao-processo:hover{
+      transition: all 0.5s;
+      padding: 1rem 1.4rem;
+      font-size: 15px;
+    }
+  
+  nav li{
+    color: #fff;
+    display: inline-block;
+    padding: 1rem;
+  }
+  
+  .banner{
+    float: left;
+    height: 1050px;
+    margin-top: -6%;
+    margin-left: -17%;
+  }
+  
+  .formulario{
+    left: 300px;
+    position: absolute;
+    margin: 7% 35%;
+    border-radius: 15px;
+    background-color: #fff;
+  }
+  
+  .formulario h3{
+    padding: 1rem;
+    text-align: left;
+    color: #CECECE;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .formulario h5{
+    padding: 0 1.5rem;
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  
+  .info{
+    margin-left: 0.1rem;
+    padding: 0.5rem 24%;
+    background: #FBFBFB;
+    border: 1px solid #CECECE;
+    border-radius: 6px;
+    color: #6d6d6d;
+  }
+  .infoestado{
+    margin-left: 0.1rem;
+    padding: 0.5rem 28%;
+    background: #FBFBFB;
+    border: 1px solid #CECECE;
+    border-radius: 6px;
+    color: #6d6d6d;
+  }
+  .input_box li{
+    transition: all 0.5s;
+    margin: 10px;
+  }
+  
+  /* input[type="checkbox"] { */
+   /* opacity: 0.3; /* Define a opacidade da caixa de seleção como 50% */
+   /* border: 4px solid #ffffff; /* Define a largura e a cor da borda da caixa de seleção */
+  /* border-radius: 4px; /* Define o raio das bordas arredondadas da caixa de seleção */
+  /* } */
+  /* //////////////////////////////////////////////////////////////// */
+  input[type="checkbox"] {
+    position: relative; /* Define a posição como relativa para que a pseudo-classe possa ser posicionada com base na caixa de seleção */
+    -webkit-appearance: none; /* Remove a aparência padrão da caixa de seleção no Safari */
+    background-color: transparent; /* Define a cor de fundo da caixa de seleção como transparente */
+    width: 10px; /* Define a largura da caixa de seleção */
+    height: 10px; /* Define a altura da caixa de seleção */
+    border-radius: 2px; /* Define o raio das bordas arredondadas da caixa de seleção */
+  }
+  
+  input[type="checkbox"]::before {
+    content: ''; /* Adiciona conteúdo vazio para a pseudo-classe */
+    position: absolute; /* Define a posição como absoluta para que a pseudo-classe possa ser posicionada corretamente */
+    top: 0; /* Posiciona a pseudo-classe no topo da caixa de seleção */
+    left: 0; /* Posiciona a pseudo-classe à esquerda da caixa de seleção */
+    width: 100%; /* Define a largura da pseudo-classe como 100% para que cubra a caixa de seleção */
+    height: 100%; /* Define a altura da pseudo-classe como 100% para que cubra a caixa de seleção */
+    border: 2px solid #fff; /* Define a largura e a cor da borda da pseudo-classe */
+    border-radius: 2px; /* Define o raio das bordas arredondadas da pseudo-classe */
+  }
+  
+  input[type="checkbox"]:checked::before {
+    content: '\2713'; /* Adiciona um símbolo de marca de seleção para a pseudo-classe quando a caixa de seleção estiver marcada */
+    color: #fff; /* Define a cor do símbolo de marca de seleção como branco */
+    font-size: 14px; /* Define o tamanho da fonte do símbolo de marca de seleção */
+    line-height: 1; /* Define a altura da linha como 1 para centralizar o símbolo verticalmente */
+    text-align: center; /* Centraliza o símbolo horizontalmente */
+    position: absolute; /* Define a posição como absoluta para que o símbolo possa ser posicionado corretamente */
+    top: 50%; /* Posiciona o símbolo no centro vertical da caixa de seleção */
+    left: 50%; /* Posiciona o símbolo no centro horizontal da caixa de seleção */
+    transform: translate(-50%, -50%); /* Centraliza o símbolo no centro da caixa de seleção */
+  }
+/* //////////////////////////////////////////////////////////////// */
+
+  /* //////////////////////////////////////////////////////////////// */
+  .opcao input[type="checkbox"] {
+    position: relative; /* Define a posição como relativa para que a pseudo-classe possa ser posicionada com base na caixa de seleção */
+    -webkit-appearance: none; /* Remove a aparência padrão da caixa de seleção no Safari */
+    background-color: transparent; /* Define a cor de fundo da caixa de seleção como transparente */
+    width: 10px; /* Define a largura da caixa de seleção */
+    height: 10px; /* Define a altura da caixa de seleção */
+    border-radius: 2px; /* Define o raio das bordas arredondadas da caixa de seleção */
+  }
+  
+  .opcao  input[type="checkbox"]::before {
+    content: ''; /* Adiciona conteúdo vazio para a pseudo-classe */
+    position: absolute; /* Define a posição como absoluta para que a pseudo-classe possa ser posicionada corretamente */
+    top: 0; /* Posiciona a pseudo-classe no topo da caixa de seleção */
+    left: 0; /* Posiciona a pseudo-classe à esquerda da caixa de seleção */
+    width: 100%; /* Define a largura da pseudo-classe como 100% para que cubra a caixa de seleção */
+    height: 100%; /* Define a altura da pseudo-classe como 100% para que cubra a caixa de seleção */
+    border: 2px solid #1A7FBD; /* Define a largura e a cor da borda da pseudo-classe */
+    border-radius: 2px; /* Define o raio das bordas arredondadas da pseudo-classe */
+  }
+  
+  .opcao input[type="checkbox"]:checked::before {
+    content: '\2713'; /* Adiciona um símbolo de marca de seleção para a pseudo-classe quando a caixa de seleção estiver marcada */
+    color: #1A7FBD; /* Define a cor do símbolo de marca de seleção como branco */
+    font-size: 14px; /* Define o tamanho da fonte do símbolo de marca de seleção */
+    line-height: 1; /* Define a altura da linha como 1 para centralizar o símbolo verticalmente */
+    text-align: center; /* Centraliza o símbolo horizontalmente */
+    position: absolute; /* Define a posição como absoluta para que o símbolo possa ser posicionado corretamente */
+    top: 50%; /* Posiciona o símbolo no centro vertical da caixa de seleção */
+    left: 50%; /* Posiciona o símbolo no centro horizontal da caixa de seleção */
+    transform: translate(-50%, -50%); /* Centraliza o símbolo no centro da caixa de seleção */
+  }
+/* //////////////////////////////////////////////////////////////// */
+
+  input[type="submit"]:hover {
+    transition: all 0.5s;
+    opacity: 0.8;
+    padding: 1rem 8rem;
+  }
+  
+  .input_box img{
+    position: absolute;
+    margin-top: 10px; 
+    left: 40px;
+  }
+
+  .icone{
+    height: 15px;
+  }
+  .icone-mail{
+    height: 13px;
+  }
+  
+  .title{
+    text-align: left;
+    padding: 0.5rem;
+    color: #aaa;
+  }
+  .title h5{
+    padding: 0.5rem;
+    color:#1A7FBD;
+  }
+  .problema{
+    background-color: #fff;
+    color: #000;
+  }
+  .conhecimentos{
+    background-color: #1A7FBD;
+  }
+  
+  .conhecimentos h5{
+    padding: 0.5rem;
+  }
+  .grupo1 li{
+    padding: 0.5rem 0.1rem;
+    font-size: 12px;
+    margin-left: 15px;
+    display: inline-block;
+  }
+  
+  .conhecimentos input{
+    position: relative;
+  }
+  
+  h5{
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  
+  .trabalho{
+    margin: 0.5rem 0;
+    color: #1A7FBD;
+  }
+  
+  .opcao{
+    margin: 0.5rem 5%;
+    transition: all 0.5s;
+  }
+
+  .line{
+    color: #ddd;
+    padding: 0 0 10px 0;
+  }
+  .campos{
+    margin: 0 10%;
+    color: #1A7FBD;
+  }
+  .enviar{
+    transition: all 0.5s;
+    margin: 0 10%;
+    color: #fff;
+    background-color: #1A7FBD;
+    border: none;
+    border-radius: 3px;
+    padding: 1rem 8rem;
+  }
+  .politica{
+    color: #aaa;
+  }
+
+  :root {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #1A7FBD;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  .rodape{
+    padding: 6% 12%;
+    margin-top: 100px;
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  .conteudo_esq{
+    margin-right: 0;
+  }
+  
+  .logo_slogan{
+    height: 50px;
+  }
+  .direitos{
+    font-size: 8px;
+    color: #B9B9B9;
+  }
+  .redes img{
+    height: 25px;
+    padding: 1rem 1rem 0;
+  }
+  .rodape li{
+    padding: 5px;
+  }
+  
+  .processo_seletivo{
+    position: absolute;
+    margin-left: 360px;
+    margin-top: -110px;
+  
+    padding: 0.7rem;
+    border-radius: 5px;
+  
+    background-color: #fff;
+    color: #000;
+  
+    transition: all 0.5s;
+  }
+  .processo_seletivo:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: all 0.5s;
+  }
+  
+  .conteudo{ 
+    margin-top: -110px;
+    margin-left: 0;
+    float: right;
+  }
+  .itens{
+    padding: 0 1rem 1rem 0;
+    float: left;
+  }
+  .contato{
+    float: right;
+  }
+
+  .jornada{
+    background-color: #fff;
+    font-size: 30px;
+    margin-top: 940px;
+}
+.jornada h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 2rem;
+
+    background-image: linear-gradient(to right, #1d628d, #4babe7, #c2e7ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.caixa1{
+    display: inline-block;
+    
+    padding: 0 10%;
+    left: 500px;
+    top: 2250px;
+}
+.caixa1 li{
+    margin: 4px 2px;
+    display: inline-block;
+    font-size: 12px;
+    padding: 1.5% 3% 1.5% 1.5%;
+    text-align: left;
+
+    color: #ffffffbb;
+    background-color: #1A7FBD;
+    border-radius: 10px;
+    box-shadow: 0 5px 60px rgba(0, 0, 0, 0.26);
+}
+
+.caixa2 {
+    display: flex;
+    height: 2.5rem;
+    width: 15rem;
+}
+
+.conjunto{
+    padding: 1% 9% 0;
+    display: inline-block;
+    width: 90%;
+}
+.conjunto img{
+    float: left;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.cadastro{
+    margin-left: 35%;
+    display: inline-block;
+    margin-top: 90px;
+    padding: 1rem 2rem;
+    font-size: 15px;
+
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.cadastro a:hover{
+    transition: all 0.5s;
+    color: rgb(105,135,235, 0.7);
+}
+
+.cadastro img{
+    height: 20px;
+    padding: 0 5px;
+    position: absolute;
+}
+.jornada a{
+    color: #1A7FBD;
+}
+.vetor{
+    margin: 1% 42% 6%;
+    padding-bottom: 2rem;
+}
+
+.objetivo{
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: 8%;
+    
+}
+
+.objetivo h1{
+    font-size: 30px;
+    padding-bottom: 2rem;
+}
+.obj{
+    left: 200px;
+  }
+  .obj li{
+    display: inline-block;
+  }
+
+  
